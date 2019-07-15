@@ -50,12 +50,13 @@
             this.btnAsync.TabIndex = 1;
             this.btnAsync.Text = "Async";
             this.btnAsync.UseVisualStyleBackColor = true;
+            this.btnAsync.Click += new System.EventHandler(this.BtnAsync_ClickAsync);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(526, 265);
+            this.ClientSize = new System.Drawing.Size(178, 200);
             this.Controls.Add(this.btnAsync);
             this.Controls.Add(this.btnBlock);
             this.Name = "Form1";
