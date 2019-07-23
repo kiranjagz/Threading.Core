@@ -38,6 +38,8 @@ namespace Task.Core
 
             // wait for task to complete
             error.Wait();
+
+            Console.Read();
         }
     }
 }
